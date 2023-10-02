@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo em branco */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto em azul escuro */
+}
+
+header {
+    background-color: #007BFF; /* Cor de fundo do cabeçalho em azul */
+    color: #fff; /* Cor do texto do cabeçalho em branco */
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #0056b3; /* Cor de fundo da navegação em azul mais escuro */
+    color: #fff; /* Cor do texto da navegação em branco */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff; /* Cor dos links da navegação em branco */
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    color: #007BFF; /* Cor do título em azul */
+}
+
+p {
+    line-height: 1.5;
+}
+.header-background {
+    background-image: url('https://network.grupoabril.com.br/wp-content/uploads/sites/4/2016/12/83680705_illustration-converted.jpg'); /* Especifique o caminho para a sua imagem de fundo */
+    background-size: center; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    color: #fff; /* Cor do texto no cabeçalho (para garantir legibilidade) */
+    padding: 130px; /* Espaçamento interno no cabeçalho, se necessário */
+    text-align: center; /* Alinhamento do texto no centro do cabeçalho */
+}
