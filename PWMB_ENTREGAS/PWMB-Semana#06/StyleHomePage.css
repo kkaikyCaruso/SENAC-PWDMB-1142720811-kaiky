@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    color: rgb(253, 254, 251);
+    width: 100%;
+    height: auto;
+    margin: 0; /* Remova qualquer margem do topo */
+    padding: 0; /* Remova qualquer preenchimento */
+}
+
+header h1 {
+    padding: 20px;
+    margin: 0; /* Remova qualquer margem interna do h1 */
+}
+header div {
+    margin-left: auto;
+    margin-top: 15px;
+    background-image: url(Imagens/logocima.png);
+    height: 85px;
+    width: 104px; /* Defina a largura da div para exibir a imagem corretamente */
+    border: 30px;
+}
+    body {
+    background-size: 150%;
+    background-image: url(Imagens/SL-043021-42650-28.jpg);
+
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+    background-color: transparent;
+    text-align: center;
+    
+}
+nav a{
+    text-align: 50%;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divs quebrem para a próxima linha quando não couberem na largura da tela */
+}
+.div1, .div2 {
+background-color: rgb(207, 253, 249);
+    flex: 1; /* Faz com que as divs ocupem a mesma quantidade de espaço disponível */
+    margin: 10px; /* Espaçamento entre as divs */
+    min-width: 300px; /* Define a largura mínima das divs */
+    overflow: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.div1 {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    
+}
+.div1 p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.div1 h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2 {
+
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+}
+.div2 p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.div2 h1 {
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    background-color: rgb(12, 33, 51);
+    height: 198px;
+    
+}
+
+footer p {
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+
+}
